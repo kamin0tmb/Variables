@@ -15,7 +15,8 @@ namespace Variables
             Console.WriteLine("Do I have a pet?" + APet);
             Console.WriteLine("My shoes size is " + Shoes);
             Console.ReadKey();
-
+            Console.WriteLine("IntMinValue {0}", int.MinValue);
+            Console.WriteLine("IntMaxValue {0}", int.MaxValue);
         }
     }
 }
