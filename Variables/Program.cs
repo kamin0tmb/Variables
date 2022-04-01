@@ -21,6 +21,24 @@ namespace Variables
             Console.WriteLine(MyFavoriteCollor);
             Console.ReadKey();
             Console.WriteLine("\t Привет, \nмир!");
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            byte age = (byte)int.Parse(Console.ReadLine());
+            Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+            Console.ReadKey();
+            Console.WriteLine("What is your favorite collor ? ");
+            Semaphore color = (Semaphore) int.Parse(Console.ReadLine());
+            Console.WriteLine("Your favorite color is {0}", color);
+            Console.WriteLine("Your name");
+            var name1 = Console.ReadLine();
+            Console.WriteLine("Your age");
+            var age1 = checked((byte)int.Parse(Console.ReadLine()));
+            Console.WriteLine("Your name is {0} and age is {1} ", name1, age1);
+            Console.WriteLine("Your color");
+            Console.Write("What is your favorite color? ");
+            var color1 = (Semaphore)int.Parse(Console.ReadLine());
+            Console.WriteLine("Your favorite color is {0}", color1);
         }
             enum Semaphore
         {   
