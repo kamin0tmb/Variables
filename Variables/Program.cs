@@ -19,6 +19,8 @@ namespace Variables
             Semaphore MyFavoriteCollor;
             MyFavoriteCollor = Semaphore.Green;
             Console.WriteLine(MyFavoriteCollor);
+            Console.ReadKey();
+            Console.WriteLine("\t Привет, \nмир!");
         }
             enum Semaphore
         {   
