@@ -6,9 +6,9 @@ namespace Variables
     {
         static void Main(string[] args)
         {
-            string MyName;
-            MyName = "Johnny";
+            string MyName = "Johnny";
             Console.WriteLine(MyName);
+            Console.ReadKey();
         }
     }
 }
